@@ -1,0 +1,36 @@
+.order-items {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  .order-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  span {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  

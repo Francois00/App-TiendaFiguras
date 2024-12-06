@@ -1,0 +1,74 @@
+/* Contenedor principal del formulario */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Título */
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Grupo de entrada */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Campos de texto */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Botón de inicio de sesión */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover del botón */
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de error o éxito */
+  .login-message {
+    text-align: center;
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  /* Mostrar token */
+  .login-token {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    word-wrap: break-word;
+  }
+  

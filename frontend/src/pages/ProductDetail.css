@@ -1,0 +1,54 @@
+/* ProductDetail.css */
+
+/* Estilo de la imagen */
+.product-image {
+    width: 100%;               /* La imagen ocupa el 100% del contenedor de su columna */
+    max-width: 500px;          /* Limita el ancho máximo de la imagen */
+    height: auto;              /* Mantiene la proporción de la imagen */
+    border-radius: 8px;        /* Bordes redondeados para la imagen */
+    display: block;
+    margin: 0 auto;            /* Centra la imagen en su contenedor */
+  }
+  
+  /* Estilos para el contenedor y los detalles del producto */
+  .product-detail {
+    display: flex;             /* Usamos flexbox para alinear los elementos en fila */
+    justify-content: space-between; /* Espaciado entre imagen y detalles */
+    align-items: flex-start;   /* Alinea los elementos hacia la parte superior */
+    margin-top: 20px;          /* Margen superior para separar el contenido */
+  }
+  
+  .product-info {
+    padding-left: 20px;        /* Agrega espacio a la izquierda para separar los detalles de la imagen */
+    max-width: 500px;          /* Limita el ancho del área de la información */
+  }
+  
+  h2 {
+    font-size: 2rem;           /* Aumenta el tamaño del título */
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 1.25rem;        /* Ajusta el tamaño del subtítulo */
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

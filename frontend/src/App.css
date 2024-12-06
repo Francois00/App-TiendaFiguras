@@ -1,0 +1,10 @@
+.main-content {
+  margin-top: 60px; /* Altura del header */
+  padding: 20px;    /* Opcional, para agregar algo de espacio interno */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px; /* Reduce el espacio interno en pantallas pequeñas */
+  }
+}
